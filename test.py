@@ -3,10 +3,12 @@
 
 
 from ProjectPlot.ProjectPlotter import *
+from ProjectPlot.CheckTraj import *
 import numpy as np
 
 
 object_point = [1000, 1000, 1000], [1100, 1200, 900] # test model, you can import your own 3d object waypoints
+im_path = '/Users/johnathanchiu/Downloads/mask.png'
 
 ### adjust the below parameters according to your camera model ###
 ### The parameters needed are as follows: cameraMatrix, rotationMatrix, distortionCo, translationMatrix ###
@@ -26,7 +28,12 @@ rotationMatrix, distortionCo, translationMatrix = np.array([[0, -1, 0],
 plotPoints = ProjectPlot(rotationMatrix, distortionCo, translationMatrix, cameraMatrix)
 
 
-#plotPoints.visualize_plotter(im_path, object_point)
+plots = plotPoints.visualize_plotter(im_path, object_point)
+im = cv2.imread(im_path)
+if check_plots(plots, im):
+    print("car is on path")
+else:
+    print("car is not on path")
 # uncomment this line and comment the line above to get real-time waypoint plotting
 #plotPoints.access_cam(object_point)
 

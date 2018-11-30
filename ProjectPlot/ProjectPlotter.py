@@ -15,8 +15,8 @@ class ProjectPlot:
         self.camera = cameraMatrix
 
     def visualize_plotter(self, image, object_points, debug=True):
-        #im = cv2.imread(image)     # uncomment this line and comment the line below to plot waypoints on a pre-recorded image
-        im = image
+        im = cv2.imread(image)     # uncomment this line and comment the line below to plot waypoints on a pre-recorded image
+        #im = image
         if debug: print("object in 3d: ", object_points)
         projection_2d = np.squeeze(self.object3d_to_object2d(object_points))
         projection_2d = np.reshape(projection_2d, (1, projection_2d.shape[0] * 2))[0] * 100
@@ -30,6 +30,7 @@ class ProjectPlot:
         im = cv2.resize(im, (960, 540)) # you can adjust the size of the image you see accordingly
         cv2.imshow('image', im)
         cv2.waitKey(1)
+        return projection_2d
 
     # function changes 3d waypoint to 2d waypoint
     def object3d_to_object2d(self, object_points):
