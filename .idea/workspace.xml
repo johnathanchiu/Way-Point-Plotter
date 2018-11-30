@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9a9cbb3-bc28-4d42-9319-598e5a6a3e99" name="Default Changelist" comment="Fixed project after accidental deletion. Working on lane segmentation to project whether or not the car is going off the path.">
-      <change afterPath="$PROJECT_DIR$/ProjectPlot/CheckTraj.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPlot/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPlot/ProjectPlotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPlot/ProjectPlotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="a9a9cbb3-bc28-4d42-9319-598e5a6a3e99" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +12,7 @@
     <session id="871105643">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="8" />
@@ -41,13 +35,13 @@
           <entry key="dummy" value="5" />
           <entry key="md" value="713" />
           <entry key="py" value="6978" />
-          <entry key="txt" value="167" />
+          <entry key="txt" value="199" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="713" />
-          <entry key="PLAIN_TEXT" value="172" />
+          <entry key="PLAIN_TEXT" value="204" />
           <entry key="Python" value="6978" />
         </counts>
       </usages-collector>
@@ -70,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProjectPlot/CheckTraj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="345">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <marker date="1543619479360" expanded="true" signature="128:129" ph="..." />
@@ -254,10 +248,18 @@
       <option name="presentableId" value="Default" />
       <updated>1542341142698</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed check trajectory">
+      <created>1543619520478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543619520478</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="815" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
@@ -286,7 +288,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed project after accidental deletion. Working on lane segmentation to project whether or not the car is going off the path." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed project after accidental deletion. Working on lane segmentation to project whether or not the car is going off the path." />
+    <MESSAGE value="fixed check trajectory" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed check trajectory" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -325,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectPlot/CheckTraj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="345">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
             <marker date="1543619479360" expanded="true" signature="128:129" ph="..." />
