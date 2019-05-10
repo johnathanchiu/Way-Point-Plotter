@@ -1,4 +1,4 @@
-__Way-Point-Plotter__
+# Way-Point-Plotter
 
 **Usage**
 
