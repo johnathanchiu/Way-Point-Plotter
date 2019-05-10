@@ -1,7 +1,5 @@
 # Way-Point-Plotter
 
-**Usage**
-
 **_To project waypoints in real-time_**
 
 Uncomment line 33 and comment line 31 in __init__.py. 
