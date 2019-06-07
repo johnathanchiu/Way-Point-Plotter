@@ -8,7 +8,7 @@ Comment line 18 and uncomment line 19 in ProjectPlotter.py
 Make sure the block of code to project waypoints on a video is commented out 
 (see section "To project waypoints on a video")
 
-## To project waypoints on a image ##
+## To project waypoints on an image ##
 
 Uncomment line 31 and comment line 33 in __init__.py
 Comment line 19 and uncomment line 18 in ProjectPlotter.py
